@@ -12,7 +12,7 @@ $(()=>{
 
 //Se linkea el json a una constante.
 
-const productosCeramico = "../json/productos.json";
+const productosCeramico = "../json/api.json";
 
 //Se Inicializa la clase Producto.
 
