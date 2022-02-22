@@ -1,0 +1,255 @@
+*{
+    
+    margin: 0;
+    
+    border: 0;
+    
+    box-sizing: border-box; 
+
+}
+html{
+
+    font-size: 62.5%; 
+
+}
+
+a{
+
+    text-decoration: none; 
+
+}
+
+.logo{
+
+    width: 450px;
+    
+    height: 200px;
+}
+
+/* texto */
+
+p{
+
+    font-size: 1.8rem; 
+
+}
+
+li{
+
+    font-size: 2rem; 
+
+}
+
+h3{
+
+    font-size: 3rem; 
+
+}
+
+h2{
+
+    font-size: 4rem; 
+
+}
+
+h1{
+
+    font-size: 5rem; 
+
+}
+
+.filters{
+
+    font-size: 1.6rem;
+
+}
+
+.backgroundForm{
+    
+    background-color: whitesmoke;
+
+}
+
+.fondo{
+
+    background-image: url('../media/oriental.png');
+
+}
+
+.centerText{
+    
+    text-align: center;
+
+}
+
+.underLine{
+    
+    text-decoration: none;
+    
+    font-weight: bold;
+    
+}
+
+.lineThrough{
+    
+    text-decoration: line-through; 
+    
+}
+
+.marked{
+
+    font-size: 2rem;
+
+    font-weight: bold; 
+    
+}
+
+.icono{
+
+    width: 30px;
+
+    height: 24px;
+
+}
+
+.imagen{
+
+        width: 206px;
+        
+        height: 245px;
+
+}
+
+.imagenTutorial{
+
+    width: 1000px;
+
+    height: 400px;
+}
+
+/* colores */
+.red{
+
+    color: red;
+
+}
+
+.white{
+
+    color: white;
+
+}
+
+.black{
+
+    color: black;
+
+}
+
+/* Cartas */
+
+.card{
+    
+    margin: 1.5rem;
+
+    border: 0.2rem black;
+
+    padding-top: 0.5rem; 
+    
+}
+
+.price{
+
+    background-color: lightgrey;
+
+    border: 0.2rem solid lightgrey; 
+
+}
+
+.espPrice{
+
+    border-style: solid;
+
+    border-width: 0.2rem;
+
+    border-color: red; 
+
+}
+
+/* otros */
+
+.footers{
+
+    margin-top: 15px;
+
+    background-color: black;
+
+    color: white; 
+
+}
+
+.noDots{
+
+    list-style-type: none; 
+
+}
+
+.boton{
+
+    font-size: 1.8rem;
+
+}
+
+.forms{
+
+    vertical-align: auto;
+
+    display: inline-block;
+
+}
+
+.noticia{
+    
+        margin:50px; 
+    
+        padding:50px; 
+    
+}
+
+/* Animaciones */
+
+.ocultar
+{
+
+    opacity:0;
+
+}
+
+.shake {
+
+    animation: shake-animation 4.72s ease infinite;
+
+    transform-origin: 50% 50%;
+
+}
+
+@keyframes shake-animation {
+    0% { transform:translate(0,0) }
+    1.78571% { transform:translate(5px,0) }
+    3.57143% { transform:translate(0,0) }
+    5.35714% { transform:translate(5px,0) }
+    7.14286% { transform:translate(0,0) }
+    8.92857% { transform:translate(5px,0) }
+    10.71429% { transform:translate(0,0) }
+    100% { transform:translate(0,0) }
+}
+
+/* MediaQuery */
+@media screen and (max-width: 496px) {
+    
+    .logo{
+        width: 200px;
+        height: 100px;
+    }
+
+}
