@@ -90,11 +90,11 @@ function bienvenidoOne(cuentas){
 
     divOne.id = 'welcomeone';
 
-    for(account of cuentas){
+    for(cuenta of cuentas){
         
         divOne.innerHTML = `
         
-            <p>Bienvenido ${account.user}, tu cuenta ah sido registrada</p>
+            <p>Bienvenido ${cuenta.user}, tu cuenta ah sido registrada</p>
             
         `;
 
@@ -147,9 +147,9 @@ function iniciar (cuentas){
         
         for (let index = 0; index < oldCuenta.length; index++){
         
-            let oldUser = account.user[index];
+            let oldUser = cuenta.user[index];
     
-            let oldPassword = account.password[index];
+            let oldPassword = cuenta.password[index];
 
             if ((inputs[0].value = oldUser) && (inputs[1].value = oldPassword)){
 
@@ -191,11 +191,11 @@ function bienvenidoTwo(cuentas){
 
     divTwo.id = 'welcomeone';
 
-    for(account of cuentas){
+    for(cuenta of cuentas){
         
         divTwo.innerHTML = `
         
-            <p>Bienvenido ${account.user}, haz iniciado sesion</p>
+            <p>Bienvenido ${cuenta.user}, haz iniciado sesion</p>
             
         `;
 
